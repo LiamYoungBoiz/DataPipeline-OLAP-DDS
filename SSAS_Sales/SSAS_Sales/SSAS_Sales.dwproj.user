@@ -1,0 +1,39 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>DDS SALE</Id>
+            <Name>DDS SALE</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQAb9pRzx6EmjBzPWK+j+TwAAAAASAAAARABEAFMAIABTAEEATABFAAAAEGYAAAABAAAgAAAAS9d93kYH6Db4Mcyd74FXmJyZxgP+YnhYYNgJbSro1fcAAAAADoAAAAACAAAgAAAAw6R4vovTcCQ5D4sV1AStaZZGQn7paegNRFIMV0AoAmcQAAAAfAlBbn+gjr9+vsA2rElQekAAAADqE/2bMLrxGqgBwdO5XuC7x/SCNIVn54S6sSTNmDAGr36Hr44o2Mlp3J19JPVjohv5bAW5Hu+Sz42ahxXeouFy</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DDS Fashion Shop</Id>
+            <Name>DDS Fashion Shop</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQAb9pRzx6EmjBzPWK+j+TwAAAAAiAAAARABEAFMAIABGAGEAcwBoAGkAbwBuACAAUwBoAG8AcAAAABBmAAAAAQAAIAAAAImAxP88DEOetzjGeZqPFxQmdCPCeKpBJoVmWJevDq9AAAAAAA6AAAAAAgAAIAAAABeLi8YndfCSqtPkYbqD7UYOYuQ014tKs40tol61By+1EAAAAISBsqULnF+6n0xcOWTs8JpAAAAAXPY/hUc29INthteD6jqXpkbR2GdAIkHUVt+J75VNJV5ANC9Q/ESrDPRGIzqUkbfFNZlb2QAg+eHX5arVhye+jw==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>DDS SALE</Id>
+            <Name>DDS SALE</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQAb9pRzx6EmjBzPWK+j+TwAAAAASAAAARABEAFMAIABTAEEATABFAAAAEGYAAAABAAAgAAAA6f/i/mcVHbsd0r7otvbljHTkj3ZTfCm4R0+wsHpAA+IAAAAADoAAAAACAAAgAAAA1gBxKUkl8rfuYg9m8hgBhRmvCw1ciK/suoxxxlGiIxUQAAAAJ9387GwBFzcHNGO3uPaUKUAAAADJqbWxrrnhw9uw1BwXBb4dq4Ukh7HNIBUOqHMXf9YCHdOs5E8D8w4qKz/Rrd9wsxoytd77NpVlR786fXkR/48U</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DDS Fashion Shop</Id>
+            <Name>DDS Fashion Shop</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQAb9pRzx6EmjBzPWK+j+TwAAAAAiAAAARABEAFMAIABGAGEAcwBoAGkAbwBuACAAUwBoAG8AcAAAABBmAAAAAQAAIAAAAMV5/Q6ZyRf5wlEWndOq/sxpGozC45XBL4TFXJldcqO9AAAAAA6AAAAAAgAAIAAAADzfYfjYsB7eGWt1oZJq7kVkjISh1OppE++m9XXVQjIUEAAAAM5fotiIBHDiFogDbtnM4BlAAAAAYaJRgBtTs4IOnQk0hqTR+qV8rd3D427tukeH0pdF4ruEPYTK6ITNBrLEMv7hlmhLBvaXitanLhGMUEpjXFrsTw==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>DESKTOP-67M8U5J\MSSQLSERVER1</TargetServer>
+        <TargetDatabase>SSAS_FashionSales</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

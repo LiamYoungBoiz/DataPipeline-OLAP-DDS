@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ETL_DATA\\Integration Services Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{069B602C-6C81-442C-8B61-8606424780E1}|giaodien\\giaodien.csproj|e:\\etl_data\\integration services project1\\giaodien\\connectssis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{069B602C-6C81-442C-8B61-8606424780E1}|giaodien\\giaodien.csproj|solutionrelative:giaodien\\connectssis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{069B602C-6C81-442C-8B61-8606424780E1}|giaodien\\giaodien.csproj|e:\\etl_data\\integration services project1\\giaodien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{069B602C-6C81-442C-8B61-8606424780E1}|giaodien\\giaodien.csproj|solutionrelative:giaodien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{069B602C-6C81-442C-8B61-8606424780E1}|giaodien\\giaodien.csproj|e:\\etl_data\\integration services project1\\giaodien\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{069B602C-6C81-442C-8B61-8606424780E1}|giaodien\\giaodien.csproj|solutionrelative:giaodien\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF8F451-A584-4AB0-89AC-FBDE4EC28E3E}|Integration Services Project1\\Integration Services Project1.dtproj|E:\\ETL_DATA\\Integration Services Project1\\Integration Services Project1\\Package.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{6EF8F451-A584-4AB0-89AC-FBDE4EC28E3E}|Integration Services Project1\\Integration Services Project1.dtproj|solutionrelative:Integration Services Project1\\Package.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{069B602C-6C81-442C-8B61-8606424780E1}|giaodien\\giaodien.csproj|e:\\etl_data\\integration services project1\\giaodien\\giaodien.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{069B602C-6C81-442C-8B61-8606424780E1}|giaodien\\giaodien.csproj|solutionrelative:giaodien\\giaodien.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{069B602C-6C81-442C-8B61-8606424780E1}|giaodien\\giaodien.csproj|E:\\ETL_DATA\\Integration Services Project1\\giaodien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{069B602C-6C81-442C-8B61-8606424780E1}|giaodien\\giaodien.csproj|solutionrelative:giaodien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{069B602C-6C81-442C-8B61-8606424780E1}|giaodien\\giaodien.csproj|e:\\etl_data\\integration services project1\\giaodien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{069B602C-6C81-442C-8B61-8606424780E1}|giaodien\\giaodien.csproj|solutionrelative:giaodien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "E:\\ETL_DATA\\Integration Services Project1\\giaodien\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "giaodien\\Form1.Designer.cs",
+              "ToolTip": "E:\\ETL_DATA\\Integration Services Project1\\giaodien\\Form1.Designer.cs",
+              "RelativeToolTip": "giaodien\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:00:18.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConnectSSIS.cs",
+              "DocumentMoniker": "E:\\ETL_DATA\\Integration Services Project1\\giaodien\\ConnectSSIS.cs",
+              "RelativeDocumentMoniker": "giaodien\\ConnectSSIS.cs",
+              "ToolTip": "E:\\ETL_DATA\\Integration Services Project1\\giaodien\\ConnectSSIS.cs",
+              "RelativeToolTip": "giaodien\\ConnectSSIS.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvyIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:59:16.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "giaodien.csproj",
+              "DocumentMoniker": "E:\\ETL_DATA\\Integration Services Project1\\giaodien\\giaodien.csproj",
+              "RelativeDocumentMoniker": "giaodien\\giaodien.csproj",
+              "ToolTip": "E:\\ETL_DATA\\Integration Services Project1\\giaodien\\giaodien.csproj",
+              "RelativeToolTip": "giaodien\\giaodien.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-16T04:58:37.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ETL_DATA\\Integration Services Project1\\giaodien\\Program.cs",
+              "RelativeDocumentMoniker": "giaodien\\Program.cs",
+              "ToolTip": "E:\\ETL_DATA\\Integration Services Project1\\giaodien\\Program.cs",
+              "RelativeToolTip": "giaodien\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:56:45.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\ETL_DATA\\Integration Services Project1\\giaodien\\Form1.cs",
+              "RelativeDocumentMoniker": "giaodien\\Form1.cs",
+              "ToolTip": "E:\\ETL_DATA\\Integration Services Project1\\giaodien\\Form1.cs",
+              "RelativeToolTip": "giaodien\\Form1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:56:40.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Package.dtsx [Design]",
+              "DocumentMoniker": "E:\\ETL_DATA\\Integration Services Project1\\Integration Services Project1\\Package.dtsx",
+              "RelativeDocumentMoniker": "Integration Services Project1\\Package.dtsx",
+              "ToolTip": "E:\\ETL_DATA\\Integration Services Project1\\Integration Services Project1\\Package.dtsx [Design]",
+              "RelativeToolTip": "Integration Services Project1\\Package.dtsx [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMxSURBVDhPjVRLTBNRFD3TH62lQEG0BaoRJfJRoxEV48KoiTEaFsrKBS5MXLhzZdzqRqM7ExZujQt36sLEqDHRuPBDooYipSjV0tLyael0ZtrpTDvPO9OxpXzEk9y89\u002B6bd\u002Bbcz3scCLfuPfjY2dVzSJ//C6IkI7mw\u002BOLr6IeRp4/uPzfdVTDGbOYUPZ1tCLS1mKu18f7zJMYmJgckFdyFS9fw6tnDtwKfFs1tgOM4qz6eOD145cC\u002B3vYOXws2OevWtUhsHmpJc9a73c1zKb69dYsvnRezaUngcwYhwWKO/w2r1QqNseb5xfRJr69z2FXf1GVuGaghlJUS5jOFiklyEQW16hNlDT8iMXwLhuCpdztis4kLgijtMo8bqORQR2hGwJMPSXMFnNrfitYGBx6/ixtrgS\u002BAVOHcjgBUtYiXb94a/uWoUagxUqlZkGtsg9TUDtXpKftKQK7BB9bRjd6DB3H8cB/sdrteA/NkFatzyDRwBQmcTFZUTB8jXx42tQCP04Gmxoayfw3UEDa67ejrcGOPt4i9XhWtTg0elw19gXrsaS6ir1GF11FCnhSvh5oc7vS7DVuJ4RMBUOSQVWpusmgyXd5YA//dNjqZQEZ1Qa5I7WN3kHeDHP5MSHj4ZqZiY7\u002BzKGlAngh0ZdkCQ4ZMVDhSTGQbFYWnOzUekxBcsmOMLJmzGhUWqDa8QVZWKCkMrER/oWKtxOqQOQtYnQvM6YbC2UjNX2XAkgyksgrSvEztZYen2Q9/595eb2D/SWza3q8fryG0UAROiwZXJgHXUhwlUayQZYgsk2eIz2XxayaDnL0NvQNnMXj55vX\u002Bobuvse3iiM5RU\u002BXugAdXW1x03ShnFJFGbwcJMsLUR8oIVMppx2YXho75sUh/ic9JSEZTJsMyhaHpWbwf/Y6x72FMTIYxPRXG1MQEpsaDmA0HkZkOQo6NQ8vOGd9bKH/5nIrUUh6CZF4AgqFQUYr4EgxjIbV\u002Bf/2FrWkb6rbvRjQhYirKI/SbRzJVeb3KhJHIj/HFrMyi0Zjh/Be2dh31K5wvwKQ8IgkBv4g4vlAlXN1IG8F35gbaz982V1VIkU8I3TnyByuphR8gq7UuAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-12-16T05:09:09.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\ETL_DATA\\Integration Services Project1\\giaodien\\Form1.cs",
+              "RelativeDocumentMoniker": "giaodien\\Form1.cs",
+              "ToolTip": "E:\\ETL_DATA\\Integration Services Project1\\giaodien\\Form1.cs [Design]",
+              "RelativeToolTip": "giaodien\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:56:35.951Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
