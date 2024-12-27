@@ -1,163 +1,158 @@
-![image](https://github.com/user-attachments/assets/468984e5-d8cf-498e-93df-1f62feafa572)
-# Xây Dựng Kho Dữ Liệu Phân Tích Kinh Doanh Cửa Hàng Bán Quần Áo
+# Building a Data Warehouse for Business Analysis of a Clothing Store
 
-## Giới thiệu
+## Introduction
 
-Mục tiêu chính:
-Đề tài hướng đến việc thiết kế và triển khai một hệ thống kho dữ liệu (Data Warehouse) nhằm lưu trữ và phân tích toàn diện dữ liệu kinh doanh của cửa hàng bán quần áo. Hệ thống sẽ hỗ trợ ban quản lý ra quyết định chiến lược, tối ưu hóa vận hành và nâng cao hiệu quả kinh doanh.
-Yêu cầu cụ thể:
-Thu thập dữ liệu:
-Tích hợp dữ liệu từ nhiều nguồn khác nhau, bao gồm:
--	Bán hàng: Dữ liệu về doanh thu, sản phẩm, thời gian, khu vực bán hàng.
--	Khách hàng: Thông tin cá nhân, lịch sử mua hàng, hành vi tiêu dùng.
--	Kho hàng: Số lượng hàng tồn, sản phẩm bán chạy, sản phẩm sắp hết hàng.
--	Khuyến mãi: Thông tin các chương trình ưu đãi, giảm giá, hiệu quả chiến dịch quảng cáo.
--	Địa lý: Thông tin về các địa điểm mua hàng, địa điểm tiêu dùng
-Xử lý dữ liệu:
-Làm sạch dữ liệu để đảm bảo tính chính xác và đồng nhất.
-Chuyển đổi dữ liệu từ các định dạng khác nhau sang một cấu trúc thống nhất.
-Áp dụng các kỹ thuật chuẩn hóa nhằm giảm thiểu trùng lặp và tối ưu hóa lưu trữ.
- 
-Lưu trữ dữ liệu:
-Xây dựng kho dữ liệu tập trung, được thiết kế với cấu trúc hỗ trợ phân tích và báo cáo.
-Đảm bảo kho dữ liệu có khả năng mở rộng khi khối lượng dữ liệu tăng lên.
-Phân tích và báo cáo:
-Xây dựng hệ thống báo cáo linh hoạt, tập trung vào các chỉ số kinh doanh cốt lõi như:
--	Doanh thu theo ngày, tháng, năm.
--	Sản phẩm bán chạy nhất và kém nhất.
--	Phân tích hành vi mua sắm của khách hàng.
-Triển khai các công cụ trực quan hóa dữ liệu (dashboards, biểu đồ) để hỗ trợ ra quyết định.
+### Main Objective:
+This project focuses on designing and implementing a data warehouse system to store and comprehensively analyze business data for a clothing store. The system aims to assist management in strategic decision-making, optimize operations, and enhance business efficiency.
 
----
+### Specific Requirements:
 
-## Các thành phần chính
+#### Data Collection:
+Integrate data from various sources, including:
+- **Sales:** Revenue, product details, time, and sales regions.
+- **Customers:** Personal information, purchase history, and consumer behavior.
+- **Inventory:** Stock levels, best-selling products, and low-stock items.
+- **Promotions:** Details of discount programs, effectiveness of marketing campaigns.
+- **Geography:** Information on purchase and consumption locations.
 
-### 1. Thiết kế kho dữ liệu
--** nguồn dữ liệu của phần mềm:  **
-**database diagram quản lý cửa hàng quần áo **
-![image](https://github.com/user-attachments/assets/2c936a4a-fd4b-4c2c-a3a1-af471bbc8872)
-**file excel tổng hợp doanh thu bán hàng của cửa hàng**
-![image](https://github.com/user-attachments/assets/527caa1f-ad8d-4b96-be3f-80b8ebc9ff06)
+#### Data Processing:
+- Clean the data to ensure accuracy and consistency.
+- Transform data from different formats into a unified structure.
+- Apply normalization techniques to minimize duplication and optimize storage.
 
-- **Phân tích yêu cầu**: Thu thập và xử lý dữ liệu từ nhiều nguồn
-- **Cấu trúc dữ liệu**:
-  - **Cơ sở dữ liệu quan hệ**:
-  - **Kho dữ liệu OLAP**: Phân tích được kho dữ liệu DDS mô hình chòm sao với các bảng Sales_Fact, Warehouse_Dimension, Coupon_Dimension, Geography_Dimension, Product_Dimension, Customer_Dimension, Time_Dimension.
+#### Data Storage:
+- Build a centralized data warehouse designed for analysis and reporting.
+- Ensure scalability to handle increasing data volumes.
 
-**Hình ảnh minh họa**:
-- Hình ảnh: **Kho dữ liệu mô hình chòm sao** 
-![image](https://github.com/user-attachments/assets/41283139-de06-48a8-84cf-e935ba1c10bb)
+#### Analysis and Reporting:
+Develop a flexible reporting system focusing on key business metrics, such as:
+- Revenue by day, month, and year.
+- Best and worst-selling products.
+- Customer shopping behavior analysis.
+- Deploy data visualization tools (dashboards, charts) to support decision-making.
 
 ---
 
-### 2. Quy trình ETL (Extract, Transform, Load)
-- Sử dụng **SSIS**:
-  - Trích xuất dữ liệu từ SQL Server và file Excel.
-  - Làm sạch, chuyển đổi dữ liệu và nạp vào kho dữ liệu.
+## Key Components
 
-**Hình ảnh minh họa**:
-- Hình ảnh: **Quy trình SSIS**
-![image](https://github.com/user-attachments/assets/ffa342b4-21d8-46c6-93c8-a2d71fab0f8b)
+### 1. Data Warehouse Design
 
-Phân tích được các Dimension như sau:
-Dim_Time: Dùng để phân tích dữ liệu theo thời gian.
- 
-![image](https://github.com/user-attachments/assets/8c2b4a69-a566-4632-911f-b54807eec6e8)
+#### **Data Sources:**
+- **Database Diagram:** A database management system for the clothing store.
+  ![Database Diagram](https://github.com/user-attachments/assets/2c936a4a-fd4b-4c2c-a3a1-af471bbc8872)
+- **Sales Revenue Excel File:** Consolidated data on store sales.
+  ![Sales Revenue Excel File](https://github.com/user-attachments/assets/527caa1f-ad8d-4b96-be3f-80b8ebc9ff06)
 
- 
-Dim_Coupon: Dùng để phân tích dữ liệu theo coupon
- 
-![image](https://github.com/user-attachments/assets/993cb4f5-ca4e-4502-9411-033f6d78d047)
+#### **Requirement Analysis:**
+- Collect and process data from multiple sources.
 
-Dim_Customer: Dùng để phân tích dữ liệu theo khách hàng.
- 
-![image](https://github.com/user-attachments/assets/9e197b1d-6956-4025-9014-93c4b84b6633)
+#### **Data Structure:**
+- **Relational Database:** 
+- **OLAP Data Warehouse:** Analyzable star schema model including:
+  - Sales_Fact
+  - Warehouse_Dimension
+  - Coupon_Dimension
+  - Geography_Dimension
+  - Product_Dimension
+  - Customer_Dimension
+  - Time_Dimension
 
- 
-Dim_Product: Dùng để phân tích dữ liệu theo sản phẩm
- 
-![image](https://github.com/user-attachments/assets/7552bec5-41d5-41e5-9fb5-c78fc55af732)
-
-Dim_Geography: Dùng để phân tích dữ liệu theo địa lý
- 
-![image](https://github.com/user-attachments/assets/4a232ff6-a727-46a8-a378-291135cd2913)
-
-Dim_Warehouse: Dùng để phân tích dữ liệu theo kho.
- 
-![image](https://github.com/user-attachments/assets/ea6f3d58-3d72-4523-8e6d-cdd07136d14e)
-
- 
-Fact: Để phân tích dữ liệu bán hàng, tổng hợp và đo lường hiệu suất
- 
-![image](https://github.com/user-attachments/assets/b1605050-c761-4a95-81fe-95cfd0f40c67)
+#### **Illustrations:**
+- Image: **Star Schema Data Warehouse Model**
+  ![Star Schema Model](https://github.com/user-attachments/assets/41283139-de06-48a8-84cf-e935ba1c10bb)
 
 ---
 
-### 3. Phân tích và trực quan hóa dữ liệu
-#### SSAS (SQL Server Analysis Services)
-- Tạo cubes để hỗ trợ phân tích dữ liệu đa chiều.
-- Các dimension như Time, Product, Customer, Coupon được cấu hình để phân tích chi tiết.
+### 2. ETL Process (Extract, Transform, Load)
 
-**Hình ảnh minh họa**:
-- Hình ảnh: **SSAS Cube**
-- ![image](https://github.com/user-attachments/assets/d08e668a-58bb-4bdd-a3a6-1b8affdf437a)
+#### Using **SSIS**:
+- Extract data from SQL Server and Excel files.
+- Cleanse, transform, and load the data into the data warehouse.
 
+#### **Illustrations:**
+- Image: **SSIS Process Workflow**
+  ![SSIS Workflow](https://github.com/user-attachments/assets/ffa342b4-21d8-46c6-93c8-a2d71fab0f8b)
 
-#### Giao diện ứng dụng
-- Chức năng chính:
-  - **Truy vấn MDX**: Hỗ trợ truy vấn và xuất báo cáo.
-  - **Thống kê**: Phân tích doanh thu, sản phẩm, khách hàng.
-  - **Tableau**: Trực quan hóa dữ liệu chuyên sâu.
+#### Dimensions Analyzed:
+- **Dim_Time:** For analyzing data by time.
+  ![Dim_Time](https://github.com/user-attachments/assets/8c2b4a69-a566-4632-911f-b54807eec6e8)
 
-**Hình ảnh minh họa giao diện**:
-- Hình ảnh: **Giao diện chính**
-  ![image](https://github.com/user-attachments/assets/22fbe6cb-af4f-437a-96b3-d54b18784e67)
+- **Dim_Coupon:** For analyzing data by coupon.
+  ![Dim_Coupon](https://github.com/user-attachments/assets/993cb4f5-ca4e-4502-9411-033f6d78d047)
 
-- Hình ảnh: **Truy vấn MDX**
-- ![image](https://github.com/user-attachments/assets/1f6a182a-d210-408a-8d95-5571289df678)
-![image](https://github.com/user-attachments/assets/9a95daa0-d88d-4bd9-8367-01e9c9cb1912)
+- **Dim_Customer:** For analyzing customer-related data.
+  ![Dim_Customer](https://github.com/user-attachments/assets/9e197b1d-6956-4025-9014-93c4b84b6633)
 
-- Hình ảnh: **Thống kê**
-![image](https://github.com/user-attachments/assets/8b492ba8-2e55-4b59-a99c-ca1a5b169e87)
-![image](https://github.com/user-attachments/assets/04d19d88-9778-4db3-8084-841d747a7075)
-![image](https://github.com/user-attachments/assets/c97681be-c8b0-456e-baea-00608b00545e)
-![image](https://github.com/user-attachments/assets/6d13b2c2-158e-4817-9c03-1375269f31bc)
-![image](https://github.com/user-attachments/assets/1f58c0d0-7c34-403e-bca4-90db2987aac3)
+- **Dim_Product:** For analyzing data by product.
+  ![Dim_Product](https://github.com/user-attachments/assets/7552bec5-41d5-41e5-9fb5-c78fc55af732)
 
-- Hình ảnh: **Tableau** 
-![image](https://github.com/user-attachments/assets/6cb9d4d1-bcdb-4eca-8014-04ef616d6fcc)
+- **Dim_Geography:** For geographic data analysis.
+  ![Dim_Geography](https://github.com/user-attachments/assets/4a232ff6-a727-46a8-a378-291135cd2913)
+
+- **Dim_Warehouse:** For warehouse-related data.
+  ![Dim_Warehouse](https://github.com/user-attachments/assets/ea6f3d58-3d72-4523-8e6d-cdd07136d14e)
+
+#### **Fact Table:**
+- Analyzing sales data, summarizing, and measuring performance.
+  ![Fact Table](https://github.com/user-attachments/assets/b1605050-c761-4a95-81fe-95cfd0f40c67)
 
 ---
 
-## Hướng dẫn sử dụng
+### 3. Data Analysis and Visualization
 
-1. **Yêu cầu hệ thống**
+#### **SSAS (SQL Server Analysis Services):**
+- Create cubes for multidimensional data analysis.
+- Configure dimensions such as Time, Product, Customer, and Coupon for detailed analysis.
+
+#### **Application Interface:**
+- **Key Features:**
+  - **MDX Querying:** Supports querying and report generation.
+  - **Statistics:** Analyze sales, products, and customers.
+  - **Tableau:** Advanced data visualization.
+
+#### **Illustrations:**
+- Images: **SSAS Cube Interface**, **MDX Queries**, **Statistics Overview**, and **Tableau Visualizations**.
+  ![SSAS Cube](https://github.com/user-attachments/assets/d08e668a-58bb-4bdd-a3a6-1b8affdf437a)
+  ![MDX Query](https://github.com/user-attachments/assets/1f6a182a-d210-408a-8d95-5571289df678)
+  ![Statistics 1](https://github.com/user-attachments/assets/8b492ba8-2e55-4b59-a99c-ca1a5b169e87)
+  ![Statistics 2](https://github.com/user-attachments/assets/04d19d88-9778-4db3-8084-841d747a7075)
+  ![Statistics 3](https://github.com/user-attachments/assets/c97681be-c8b0-456e-baea-00608b00545e)
+  ![Tableau](https://github.com/user-attachments/assets/6cb9d4d1-bcdb-4eca-8014-04ef616d6fcc)
+
+---
+
+## User Guide
+
+### 1. **System Requirements:**
    - SQL Server, SSIS, SSAS.
-   - Tableau hoặc các công cụ trực quan hóa tương tự.
+   - Tableau or similar visualization tools.
 
-2. **Cài đặt**
-   - Import dữ liệu từ file Excel hoặc SQL Server.
-   - Cấu hình cubes trong SSAS và kết nối giao diện ứng dụng.
+### 2. **Installation:**
+   - Import data from Excel files or SQL Server.
+   - Configure cubes in SSAS and connect to the application interface.
 
-3. **Chức năng chính**
-   - Truy vấn dữ liệu bằng MDX.
-   - Xem và xuất báo cáo thống kê theo nhiều tiêu chí (doanh thu, sản phẩm bán chạy, v.v.).
-   - Phân tích nâng cao với Tableau.
-
----
-
-## Kết quả
-- Hệ thống giúp cải thiện quy trình quản lý và phân tích dữ liệu.
-- Hỗ trợ báo cáo trực quan, từ đó tối ưu hóa chiến lược kinh doanh và dịch vụ khách hàng.
+### 3. **Key Features:**
+   - Query data using MDX.
+   - View and export statistical reports based on multiple criteria (revenue, best-selling products, etc.).
+   - Perform advanced analyses using Tableau.
 
 ---
 
-## Hạn chế và định hướng phát triển
-- Hệ thống chưa tích hợp phân tích dự đoán hoặc dự báo doanh thu.
-- Bổ sung các tính năng bảo mật dữ liệu nâng cao.
-- Mở rộng quy mô để hỗ trợ nhiều cửa hàng hoặc chuỗi kinh doanh.
+## Outcomes
+
+- Improved data management and analysis processes.
+- Enhanced reporting capabilities, enabling better strategic business and customer service decisions.
 
 ---
 
-## Đóng góp
-Mọi ý kiến đóng góp và cải tiến đều được hoan nghênh. Hãy tạo một **pull request** hoặc **issue** nếu bạn muốn đóng góp vào dự án.
+## Limitations and Future Directions
+
+- The system does not yet include predictive analytics or revenue forecasting.
+- Enhance data security features.
+- Expand scalability to support multiple stores or chains.
+
+---
+
+## Contributions
+
+Feedback and contributions are welcome! Feel free to create a **pull request** or **issue** if you would like to contribute to this project.
