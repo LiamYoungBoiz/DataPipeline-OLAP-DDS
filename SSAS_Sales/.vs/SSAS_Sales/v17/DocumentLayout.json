@@ -1,0 +1,259 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|e:\\10000_xaydungkhodulieuphantichkinhdoanhcuahangbanquanao\\ssas_sales\\giaodien1\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|solutionrelative:giaodien1\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|solutionrelative:giaodien1\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\truyvanmdx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|solutionrelative:giaodien1\\truyvanmdx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\truyvanmdx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|solutionrelative:giaodien1\\truyvanmdx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\tableau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|solutionrelative:giaodien1\\tableau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\tableau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|solutionrelative:giaodien1\\tableau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|solutionrelative:giaodien1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|solutionrelative:giaodien1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\thongke.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE3AF65-93D7-4E55-943F-8BFA68EED13F}|giaodien1\\giaodien1.csproj|solutionrelative:giaodien1\\thongke.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564F7F58-1C99-483D-A190-6241321D07AF}|SSAS_Sales\\SSAS_Sales.dwproj|E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\Geography Dimension.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{564F7F58-1C99-483D-A190-6241321D07AF}|SSAS_Sales\\SSAS_Sales.dwproj|solutionrelative:SSAS_Sales\\Geography Dimension.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564F7F58-1C99-483D-A190-6241321D07AF}|SSAS_Sales\\SSAS_Sales.dwproj|E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\Product Dimension.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{564F7F58-1C99-483D-A190-6241321D07AF}|SSAS_Sales\\SSAS_Sales.dwproj|solutionrelative:SSAS_Sales\\Product Dimension.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564F7F58-1C99-483D-A190-6241321D07AF}|SSAS_Sales\\SSAS_Sales.dwproj|E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\Time Dimension.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{564F7F58-1C99-483D-A190-6241321D07AF}|SSAS_Sales\\SSAS_Sales.dwproj|solutionrelative:SSAS_Sales\\Time Dimension.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564F7F58-1C99-483D-A190-6241321D07AF}|SSAS_Sales\\SSAS_Sales.dwproj|E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\Warehouse Dimension.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{564F7F58-1C99-483D-A190-6241321D07AF}|SSAS_Sales\\SSAS_Sales.dwproj|solutionrelative:SSAS_Sales\\Warehouse Dimension.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564F7F58-1C99-483D-A190-6241321D07AF}|SSAS_Sales\\SSAS_Sales.dwproj|E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\Customer Dimension.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{564F7F58-1C99-483D-A190-6241321D07AF}|SSAS_Sales\\SSAS_Sales.dwproj|solutionrelative:SSAS_Sales\\Customer Dimension.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564F7F58-1C99-483D-A190-6241321D07AF}|SSAS_Sales\\SSAS_Sales.dwproj|E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\DDS Fashion Shop.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{564F7F58-1C99-483D-A190-6241321D07AF}|SSAS_Sales\\SSAS_Sales.dwproj|solutionrelative:SSAS_Sales\\DDS Fashion Shop.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "tableau.cs",
+              "DocumentMoniker": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\tableau.cs",
+              "RelativeDocumentMoniker": "giaodien1\\tableau.cs",
+              "ToolTip": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\tableau.cs",
+              "RelativeToolTip": "giaodien1\\tableau.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T17:42:03.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tableau.cs [Design]",
+              "DocumentMoniker": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\tableau.cs",
+              "RelativeDocumentMoniker": "giaodien1\\tableau.cs",
+              "ToolTip": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\tableau.cs [Design]",
+              "RelativeToolTip": "giaodien1\\tableau.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T17:41:57.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ThongKe.cs",
+              "DocumentMoniker": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\ThongKe.cs",
+              "RelativeDocumentMoniker": "giaodien1\\ThongKe.cs",
+              "ToolTip": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\ThongKe.cs",
+              "RelativeToolTip": "giaodien1\\ThongKe.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAhwIMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:25:39.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ThongKe.Designer.cs",
+              "DocumentMoniker": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\ThongKe.Designer.cs",
+              "RelativeDocumentMoniker": "giaodien1\\ThongKe.Designer.cs",
+              "ToolTip": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\ThongKe.Designer.cs",
+              "RelativeToolTip": "giaodien1\\ThongKe.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:34:52.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TruyVanMDX.cs",
+              "DocumentMoniker": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\TruyVanMDX.cs",
+              "RelativeDocumentMoniker": "giaodien1\\TruyVanMDX.cs",
+              "ToolTip": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\TruyVanMDX.cs",
+              "RelativeToolTip": "giaodien1\\TruyVanMDX.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAtwF0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:03:12.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThongKe.cs [Design]",
+              "DocumentMoniker": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\ThongKe.cs",
+              "RelativeDocumentMoniker": "giaodien1\\ThongKe.cs",
+              "ToolTip": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\ThongKe.cs [Design]",
+              "RelativeToolTip": "giaodien1\\ThongKe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:59:39.108Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TruyVanMDX.cs [Design]",
+              "DocumentMoniker": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\TruyVanMDX.cs",
+              "RelativeDocumentMoniker": "giaodien1\\TruyVanMDX.cs",
+              "ToolTip": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\TruyVanMDX.cs [Design]",
+              "RelativeToolTip": "giaodien1\\TruyVanMDX.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:58:32.456Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\Form1.cs",
+              "RelativeDocumentMoniker": "giaodien1\\Form1.cs",
+              "ToolTip": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\Form1.cs",
+              "RelativeToolTip": "giaodien1\\Form1.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIAwwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:54:58.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\giaodien1\\Form1.cs",
+              "RelativeDocumentMoniker": "giaodien1\\Form1.cs",
+              "ToolTip": "E:\\SSAS_Sales\\giaodien1\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\SSAS_Sales\\giaodien1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:52:02.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DDS Fashion Shop.cube",
+              "DocumentMoniker": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\DDS Fashion Shop.cube",
+              "RelativeDocumentMoniker": "SSAS_Sales\\DDS Fashion Shop.cube",
+              "ToolTip": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\DDS Fashion Shop.cube",
+              "RelativeToolTip": "SSAS_Sales\\DDS Fashion Shop.cube",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-12T11:20:36.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Warehouse Dimension.dim",
+              "DocumentMoniker": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\Warehouse Dimension.dim",
+              "RelativeDocumentMoniker": "SSAS_Sales\\Warehouse Dimension.dim",
+              "ToolTip": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\Warehouse Dimension.dim",
+              "RelativeToolTip": "SSAS_Sales\\Warehouse Dimension.dim",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-12T11:20:17.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Customer Dimension.dim",
+              "DocumentMoniker": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\Customer Dimension.dim",
+              "RelativeDocumentMoniker": "SSAS_Sales\\Customer Dimension.dim",
+              "ToolTip": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\Customer Dimension.dim",
+              "RelativeToolTip": "SSAS_Sales\\Customer Dimension.dim",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-12T11:18:14.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Time Dimension.dim",
+              "DocumentMoniker": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\Time Dimension.dim",
+              "RelativeDocumentMoniker": "SSAS_Sales\\Time Dimension.dim",
+              "ToolTip": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\Time Dimension.dim",
+              "RelativeToolTip": "SSAS_Sales\\Time Dimension.dim",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-12T11:19:54.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product Dimension.dim",
+              "DocumentMoniker": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\Product Dimension.dim",
+              "RelativeDocumentMoniker": "SSAS_Sales\\Product Dimension.dim",
+              "ToolTip": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\Product Dimension.dim",
+              "RelativeToolTip": "SSAS_Sales\\Product Dimension.dim",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-12T11:19:14.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Geography Dimension.dim [Design]",
+              "DocumentMoniker": "E:\\10000_XayDungKhoDuLieuPhanTichKinhDoanhCuaHangBanQuanAo\\SSAS_Sales\\SSAS_Sales\\Geography Dimension.dim",
+              "RelativeDocumentMoniker": "SSAS_Sales\\Geography Dimension.dim",
+              "ToolTip": "E:\\SSAS_Sales\\SSAS_Sales\\Geography Dimension.dim [Design]",
+              "RelativeToolTip": "..\\..\\SSAS_Sales\\SSAS_Sales\\Geography Dimension.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-12T11:18:28.756Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

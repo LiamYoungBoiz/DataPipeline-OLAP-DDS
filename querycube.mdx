@@ -1,0 +1,108 @@
+﻿-- 1. Tổng doanh thu theo năm và lọc theo doanh thu > 0
+SELECT 
+    FILTER([Time Dimension].[Year].MEMBERS, 
+           [Time Dimension].[Year].CURRENTMEMBER.Name <> "All" AND [Measures].[Total Sales] > 0) ON ROWS,   
+    [Measures].[Total Sales] ON COLUMNS
+FROM [DDS Fashion Shop]
+-- -- 2. Tổng doanh thu theo thành phố và lọc theo doanh thu > 1000 
+SELECT 
+    FILTER([Geography Dimension].[City].MEMBERS, 
+           [Geography Dimension].[City].CURRENTMEMBER.Name <> "All" AND [Measures].[Total Sales] > 1000) ON ROWS, 
+    [Measures].[Total Sales] ON COLUMNS
+FROM [DDS Fashion Shop]
+
+-- 3. Tổng doanh thu theo sản phẩm và khách hàng, để tính doanh thu trung bình
+WITH 
+MEMBER [Measures].[Avg Sales] AS 
+    AVG([Product Dimension].[Product Name].MEMBERS, [Measures].[Total Sales])
+SELECT 
+    FILTER([Product Dimension].[Product Name].MEMBERS, 
+           [Product Dimension].[Product Name].CURRENTMEMBER.Name <> "All") ON ROWS,  
+    { [Measures].[Total Sales], [Measures].[Avg Sales] } ON COLUMNS
+FROM [DDS Fashion Shop]
+
+-- 4. Lấy Top 5 sản phẩm theo doanh thu trong năm hiện tại và sắp xếp theo thứ tự giảm dần
+SELECT 
+    TOPCOUNT(
+        FILTER([Product Dimension].[Product Name].MEMBERS, 
+               [Product Dimension].[Product Name].CURRENTMEMBER.Name <> "All"), 
+        5, 
+        [Measures].[Total Sales]
+    ) ON ROWS,  
+    [Measures].[Total Sales] ON COLUMNS
+FROM [DDS Fashion Shop]
+WHERE 
+    ([Time Dimension].[Year].[2022])
+
+-- 5. Tổng doanh thu theo quý và sắp xếp theo thứ tự giảm dần 
+SELECT 
+    ORDER(
+        FILTER([Time Dimension].[Quarter].MEMBERS, 
+               [Time Dimension].[Quarter].CURRENTMEMBER.Name <> "All" AND 
+               [Measures].[Total Sales] > 0 AND 
+               [Time Dimension].[Quarter].CURRENTMEMBER.Name <> "Unknown"),
+        [Measures].[Total Sales], 
+        BDESC
+    ) ON ROWS,
+    [Measures].[Total Sales] ON COLUMNS
+FROM [DDS Fashion Shop]
+
+--6. Doanh thu trung bình theo dòng sản phẩm và năm
+WITH 
+MEMBER [Measures].[Avg Sales] AS 
+    AVG(
+        FILTER(
+            [Time Dimension].[Year].MEMBERS, 
+            NOT [Time Dimension].[Year].CURRENTMEMBER IS [Time Dimension].[Year].[ALL]  
+            AND NOT IsEmpty([Measures].[Total Sales])  
+        ), 
+        [Measures].[Total Sales]
+    )
+SELECT 
+    FILTER(
+        [Product Dimension].[Product Line].MEMBERS, 
+        NOT [Product Dimension].[Product Line].CURRENTMEMBER IS [Product Dimension].[Product Line].[ALL]  
+        AND NOT IsEmpty([Measures].[Avg Sales])  
+    ) ON ROWS, 
+    {[Measures].[Avg Sales]} ON COLUMNS
+FROM [DDS Fashion Shop]
+
+--7. Tổng doanh thu và số lượng đơn hàng theo lãnh thổ
+SELECT 
+    FILTER(
+        [Geography Dimension].[Territory].MEMBERS, 
+        NOT [Geography Dimension].[Territory].CURRENTMEMBER IS [Geography Dimension].[Territory].[ALL]  
+        AND NOT IsEmpty([Measures].[Total Sales])  
+        AND NOT IsEmpty([Measures].[Sales Fact Count])  
+    ) ON ROWS, 
+    {[Measures].[Total Sales], [Measures].[Sales Fact Count]} ON COLUMNS
+FROM [DDS Fashion Shop]
+
+
+-- 8.Tổng số lượng đơn hàng theo khách hàng
+SELECT 
+    FILTER(
+        [Customer Dimension].[Customer Name].MEMBERS, 
+        NOT IsEmpty([Measures].[Quantity Ordered])  
+        AND NOT [Customer Dimension].[Customer Name].CURRENTMEMBER IS [Customer Dimension].[Customer Name].[ALL]  
+    ) ON ROWS, 
+    {[Measures].[Quantity Ordered]} ON COLUMNS
+FROM [DDS Fashion Shop]
+-- 9.Tổng số lượng đơn hàng theo sản phẩm
+SELECT 
+    FILTER(
+        [Product Dimension].[Product Name].MEMBERS, 
+        NOT IsEmpty([Measures].[Quantity Ordered])  
+        AND NOT [Product Dimension].[Product Name].CURRENTMEMBER IS [Product Dimension].[Product Name].[ALL]  
+    ) ON ROWS, 
+    {[Measures].[Quantity Ordered]} ON COLUMNS
+FROM [DDS Fashion Shop]
+-- 10. Tổng doanh thu theo quý
+SELECT 
+    FILTER(
+        [Time Dimension].[Quarter].MEMBERS, 
+        NOT IsEmpty([Measures].[Total Sales]) 
+        AND NOT [Time Dimension].[Quarter].CURRENTMEMBER IS [Time Dimension].[Quarter].[ALL]  
+    ) ON ROWS, 
+    {[Measures].[Total Sales]} ON COLUMNS
+FROM [DDS Fashion Shop]
